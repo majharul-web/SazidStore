@@ -15,7 +15,7 @@ const App = () => {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={{
-          tabBarActiveTintColor: '#e91e63',
+          tabBarActiveTintColor: 'black',
           header: () => null,
         }}
       >
