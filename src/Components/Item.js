@@ -18,7 +18,7 @@ const Item = ({ item }) => {
                 style={{ width: 100, height: 100 }}
                 source={{ uri: strCategoryThumb }}
             />
-            <Text style={{ color: 'black', fontSize: 20, fontWeight: 'bold' }}>{strCategory}</Text>
+            <Text style={{ color: 'black', fontSize: 18, fontWeight: 'bold' }}>{strCategory}</Text>
             <Text style={{ color: 'gray', fontSize: 16 }}>{strCategory}</Text>
             <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginVertical: 10, }}>
                 <Text style={{ color: 'black', fontSize: 18, fontWeight: 'bold' }}>$ 14</Text>

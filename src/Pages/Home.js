@@ -52,12 +52,12 @@ const Home = () => {
             </View>
 
             <View style={{ flex: 3 }}>
-                <Text style={{color:'black',fontSize:20,fontWeight:'bold',marginVertical:5,textAlign:'center'}}>Found {meals.length} Results</Text>
+                <Text style={{ color: 'black', fontSize: 20, fontWeight: 'bold', marginVertical: 5, textAlign: 'center' }}>Found {meals.length} Results</Text>
                 <FlatGrid
                     keyExtractor={item => item.idCategory}
                     data={meals}
                     style={{ flex: 1 }}
-                    spacing={20}
+                    spacing={15}
                     renderItem={({ item }) => (
                         <Item item={item}></Item>
                     )}
