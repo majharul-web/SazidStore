@@ -185,7 +185,7 @@ const Cart = () => {
 
                 </View>
 
-                <View style={{ flex: .20, marginTop: 10 }}>
+                <View style={{ flex: .20, marginBottom: 40 }}>
                     <Pressable
                         style={{ backgroundColor: '#000', paddingVertical: 18, borderRadius: 50 }}
                     >
