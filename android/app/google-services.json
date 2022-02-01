@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "570587575180",
+    "project_id": "sazidstore-551c9",
+    "storage_bucket": "sazidstore-551c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570587575180:android:2b0438ddaec3d945e8dca9",
+        "android_client_info": {
+          "package_name": "com.myprojectnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570587575180-336nt9ripcjds7dpopini48iu1mie282.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFFx5AJ6fcHcrNV_Vk0j-E9640t4OMpZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570587575180-336nt9ripcjds7dpopini48iu1mie282.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
