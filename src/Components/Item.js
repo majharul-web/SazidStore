@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Item = ({ item }) => {
     const { strCategory, strCategoryThumb, strCategoryDescription, price } = item;
@@ -22,16 +22,17 @@ const Item = ({ item }) => {
             // }}
             />
 
-            <Text style={{ color: 'black', fontSize: 18, fontWeight: 'bold' }}>{strCategory}</Text>
+            <Text style={{ color: 'black', fontSize: 17, fontWeight: 'bold' }}>{strCategory}</Text>
             <Text style={{ color: 'gray', fontSize: 16 }}>{strCategory}</Text>
             <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginVertical: 10, }}>
                 <Text style={{ color: 'black', fontSize: 18, fontWeight: 'bold' }}>${price}</Text>
                 <Pressable>
-                    <MaterialIcons name="favorite" color={'black'} size={20} />
+                    <Ionicons name="heart-circle" color={'black'} size={25} />
                 </Pressable>
             </View>
         </View>
     );
 };
+
 
 export default Item;

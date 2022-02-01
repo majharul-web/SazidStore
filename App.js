@@ -6,10 +6,10 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from './src/Pages/Home';
 import Cart from './src/Pages/Cart';
-import Register from './src/Pages/Register';
 import Profile from './src/Pages/Profile';
 import Post from './src/Pages/Post';
 import { StyleSheet, TouchableOpacity, TouchableOpacityBase, View } from 'react-native';
+import Login from './src/Pages/Login';
 
 
 
@@ -74,10 +74,10 @@ const App = () => {
           }}
         />
         <Tab.Screen
-          name="Register"
-          component={Register}
+          name="Login"
+          component={Login}
           options={{
-            tabBarLabel: 'Register',
+            tabBarLabel: 'Login',
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="login" color={color} size={size} />
             ),
